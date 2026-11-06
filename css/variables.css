@@ -1,0 +1,78 @@
+/* ==========================================================================
+   Design Tokens & Variables - Arpitha Mary Shyju Portfolio
+   Theme: Warm Cream, Light Beige, Dark Chocolate, Warm Terracotta
+   ========================================================================== */
+
+:root {
+  /* Color Palette */
+  --bg-primary: #FAF7F2;          /* Warm Cream */
+  --bg-secondary: #F0E9DF;        /* Light Beige */
+  --bg-card: #FFFFFF;             /* Pure White */
+  --bg-card-hover: #FDFBF8;       /* Subtle Warm White */
+  --bg-card-subtle: #F6F1EA;      /* Tinted Beige Card */
+  
+  --text-primary: #382D26;        /* Dark Chocolate */
+  --text-secondary: #82766A;      /* Muted Brown */
+  --text-tertiary: #A69B8F;       /* Soft Sand Muted */
+  --text-inverse: #FAF7F2;        /* Light for dark accents */
+
+  --accent: #B47C5A;              /* Warm Terracotta */
+  --accent-hover: #9D6745;        /* Deep Warm Terracotta */
+  --accent-active: #825235;       /* Earthy Terracotta */
+  --accent-light: #F7EFEA;        /* Delicate Terracotta Tint */
+  --accent-light-2: #EEDFD6;      /* Slightly deeper tint */
+  --accent-subtle: rgba(180, 124, 90, 0.12);
+  --accent-glow: rgba(180, 124, 90, 0.25);
+
+  --border-subtle: rgba(56, 45, 38, 0.08);
+  --border-medium: rgba(56, 45, 38, 0.14);
+  --border-accent: rgba(180, 124, 90, 0.3);
+
+  /* Shadows (Subtle, organic diffusion) */
+  --shadow-xs: 0 1px 3px rgba(56, 45, 38, 0.03);
+  --shadow-sm: 0 4px 12px rgba(56, 45, 38, 0.04);
+  --shadow-md: 0 10px 28px rgba(56, 45, 38, 0.06);
+  --shadow-lg: 0 20px 48px rgba(56, 45, 38, 0.08);
+  --shadow-xl: 0 28px 64px rgba(56, 45, 38, 0.1);
+  --shadow-terracotta: 0 12px 32px rgba(180, 124, 90, 0.22);
+
+  /* Typography */
+  --font-serif: 'Playfair Display', 'Cormorant Garamond', Garamond, Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', SFMono-Regular, Consolas, Monaco, monospace;
+
+  /* Font Weights */
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Spacing */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4.5rem;
+  --space-4xl: 6.5rem;
+
+  /* Layout */
+  --max-width: 1240px;
+  --nav-height: 80px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-base: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+

@@ -1,0 +1,27 @@
+{
+  "name": "arpitha-mary-shyju-portfolio",
+  "version": "1.0.0",
+  "description": "Modern Personal Portfolio Website for Arpitha Mary Shyju - B.Tech CSE Student at Amal Jyothi College of Engineering",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "computer-science",
+    "student",
+    "amal-jyothi-college-of-engineering",
+    "kerala",
+    "html5",
+    "css3",
+    "javascript"
+  ],
+  "author": "Arpitha Mary Shyju <arpithamaryshyju2030@cs.ajce.in>",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
+

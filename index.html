@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arpitha Mary Shyju - First-Year Computer Science and Engineering Student at Amal Jyothi College of Engineering, Kanjirappally, Kerala. Modern personal portfolio featuring projects, technical skills, and academic journey.">
+  <meta name="keywords" content="Arpitha Mary Shyju, Amal Jyothi College of Engineering, AJCE, Computer Science Student, B.Tech CSE, Portfolio, Web Developer, Python, Kerala">
+  <meta name="author" content="Arpitha Mary Shyju">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Arpitha Mary Shyju | Computer Science & Engineering Student">
+  <meta property="og:description" content="Passionate first-year Computer Science student at Amal Jyothi College of Engineering. Exploring programming, emerging technologies, and building thoughtful digital experiences.">
+  <meta property="og:type" content="website">
+
+  <title>Arpitha Mary Shyju | B.Tech CSE • Amal Jyothi College of Engineering</title>
+
+  <!-- Google Fonts: Playfair Display (Editorial Serif) & Plus Jakarta Sans (Clean Modern Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. Navigation Bar (Sticky, Warm Cream, Glassmorphic)
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-wrapper">
+      <a href="#hero" class="brand-logo" aria-label="Arpitha Mary Shyju - Home">
+        ARPITHA<span class="dot">.</span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-links" aria-label="Main Navigation">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop Connect CTA -->
+      <div class="nav-cta-btn">
+        <a href="#contact" class="btn btn-primary btn-sm">
+          Let's Connect
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="7" y1="17" x2="17" y2="7"></line>
+            <polyline points="7 7 17 7 17 17"></polyline>
+          </svg>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-backdrop" id="mobileBackdrop"></div>
+  <aside class="mobile-nav" id="mobileNav" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div style="margin-bottom: 2rem;">
+        <span class="brand-logo">ARPITHA<span class="dot">.</span></span>
+        <p style="font-size: 0.85rem; color: var(--text-tertiary); margin-top: 0.25rem;">B.Tech CSE '30 • AJCE</p>
+      </div>
+      <nav class="mobile-nav-links">
+        <a href="#hero" class="mobile-nav-link active">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#education" class="mobile-nav-link">Education</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#experience" class="mobile-nav-link">Experience</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+    </div>
+    <div>
+      <a href="#contact" class="btn btn-primary mobile-nav-cta" style="width: 100%;">
+        Let's Connect
+      </a>
+    </div>
+  </aside>
+
+  <main>
+    <!-- ==========================================================================
+         2. Hero Section
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Editorial Introduction -->
+          <div class="hero-content">
+            <div class="hero-status-pill">
+              <span class="badge-pulse">
+                <span class="pulse-dot"></span>
+                First-Year CSE Student • Class of 2030
+              </span>
+            </div>
+
+            <h1 class="hero-title">
+              <span class="title-greeting">Hello, I'm</span>
+              <span class="name-highlight">Arpitha Mary Shyju</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              First-Year Computer Science & Engineering Scholar at Amal Jyothi College of Engineering
+            </p>
+
+            <p class="hero-description">
+              "I'm a passionate first-year Computer Science and Engineering student who is curious to learn, enthusiastic about technology and eager to explore new ideas. I enjoy learning programming, discovering emerging technologies and developing my skills."
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary btn-lg">
+                Explore My Work
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <button type="button" class="btn btn-secondary btn-lg btn-open-resume">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                  <polyline points="10 9 9 9 8 9"></polyline>
+                </svg>
+                View Resume / CV
+              </button>
+            </div>
+
+            <!-- Key Quick Highlights Strip -->
+            <div class="hero-highlights-strip">
+              <div class="hero-highlight-item">
+                <span class="highlight-label">Degree</span>
+                <span class="highlight-value">B.Tech in CSE</span>
+              </div>
+              <div class="hero-highlight-item">
+                <span class="highlight-label">Institution</span>
+                <span class="highlight-value">Amal Jyothi, Kanjirappally</span>
+              </div>
+              <div class="hero-highlight-item">
+                <span class="highlight-label">Graduation</span>
+                <span class="highlight-value">Expected 2030</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Editorial Visual Art Card -->
+          <div class="hero-visual">
+            <div class="hero-card-container">
+              <div class="hero-card-backdrop"></div>
+              
+              <!-- Floating Badges -->
+              <div class="floating-pill floating-pill--top">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+                AJCE Tech Explorer
+              </div>
+
+              <div class="floating-pill floating-pill--bottom">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                </svg>
+                Problem Solver & Learner
+              </div>
+
+              <!-- Main Card -->
+              <div class="hero-art-card">
+                <div class="hero-avatar-frame">
+                  <span class="monogram-avatar">AMS</span>
+                </div>
+                <h3 class="hero-card-name">Arpitha Mary Shyju</h3>
+                <p class="hero-card-tag">Computer Science & Engineering • 1st Year</p>
+                <div class="hero-card-quote">
+                  "I believe in continuous learning, creativity and teamwork."
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. About Section
+         ========================================================================== -->
+    <section class="section section--alt" id="about">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="eyebrow">About Arpitha</span>
+          <h2 class="section-title">Driven by <em>Curiosity</em>, Guided by Purpose</h2>
+          <p class="section-subtitle">
+            A passionate first-year engineering student blending logical reasoning with an eye for detail and design.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left: Narrative & Personal Philosophy -->
+          <div class="about-narrative reveal-on-scroll">
+            <blockquote class="about-intro-quote">
+              "I'm a passionate first-year Computer Science and Engineering student who is curious to learn, enthusiastic about technology and eager to explore new ideas. I enjoy learning programming, discovering emerging technologies and developing my skills. I believe in continuous learning, creativity and teamwork."
+            </blockquote>
+
+            <p class="about-text">
+              My journey into Computer Science began with a natural fascination for how lines of code translate into real-world applications that people interact with every day. Currently studying at <strong>Amal Jyothi College of Engineering, Kanjirappally</strong>, I am immersing myself in programming paradigms, computational mathematics, and systems design.
+            </p>
+
+            <p class="about-text">
+              I believe true growth comes from curiosity and proactive practice. Whether exploring the mechanics of Python algorithms, structuring web pages with modern CSS, or brainstorming creative tech solutions, I relish every opportunity to collaborate with peers, participate in hackathons, and learn by doing.
+            </p>
+
+            <!-- Quick Details Table -->
+            <div class="about-details-table">
+              <div class="detail-box">
+                <div class="detail-label">Full Name</div>
+                <div class="detail-val">Arpitha Mary Shyju</div>
+              </div>
+              <div class="detail-box">
+                <div class="detail-label">Current College</div>
+                <div class="detail-val">Amal Jyothi College of Engineering</div>
+              </div>
+              <div class="detail-box">
+                <div class="detail-label">Degree & Year</div>
+                <div class="detail-val">B.Tech CSE (First Year)</div>
+              </div>
+              <div class="detail-box">
+                <div class="detail-label">Official Email</div>
+                <div class="detail-val" style="font-size: 0.85rem;">arpithamaryshyju2030@cs.ajce.in</div>
+              </div>
+            </div>
+
+            <div style="margin-top: 1rem;">
+              <button type="button" class="btn btn-outline btn-open-resume">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Download / Preview CV
+              </button>
+            </div>
+          </div>
+
+          <!-- Right: Core Values / Pillars -->
+          <div class="pillars-grid reveal-on-scroll delay-1">
+            <div class="pillar-card">
+              <span class="pillar-number">01</span>
+              <div class="pillar-content">
+                <h4>Intellectual Curiosity</h4>
+                <p>Constantly seeking to understand how software works beneath the abstractions, from low-level logic to high-level system interactions.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <span class="pillar-number">02</span>
+              <div class="pillar-content">
+                <h4>Continuous Learning</h4>
+                <p>Committed to daily incremental progress, keeping abreast of emerging advancements, and mastering fundamental concepts step-by-step.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <span class="pillar-number">03</span>
+              <div class="pillar-content">
+                <h4>Creativity & Design</h4>
+                <p>Believing software is an art form. Writing clean, readable code and designing digital interfaces that feel calm, warm, and intuitive.</p>
+              </div>
+            </div>
+
+            <div class="pillar-card">
+              <span class="pillar-number">04</span>
+              <div class="pillar-content">
+                <h4>Collaborative Spirit</h4>
+                <p>Thriving in student community circles, code jams, and team settings where sharing knowledge multiplies individual potential.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         4. Education Section
+         ========================================================================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header section-header--center reveal-on-scroll">
+          <span class="eyebrow">Academic Journey</span>
+          <h2 class="section-title">Foundations in <em>Engineering</em></h2>
+          <p class="section-subtitle">
+            Building strong theoretical grounding and practical competence through structured academic rigor.
+          </p>
+        </div>
+
+        <div class="education-container">
+          <!-- College Card -->
+          <div class="edu-card reveal-on-scroll">
+            <div class="edu-card-header">
+              <div>
+                <h3 class="edu-degree">Bachelor of Technology in Computer Science & Engineering</h3>
+                <div class="edu-college">Amal Jyothi College of Engineering, Kanjirappally, Kerala, India</div>
+              </div>
+              <span class="edu-period">2026 – 2030 (Expected)</span>
+            </div>
+            
+            <p class="edu-description">
+              Currently pursuing a comprehensive undergraduate curriculum in Computer Science and Engineering at Amal Jyothi College of Engineering — a premier autonomous institution in Kerala renowned for technical excellence, research culture, and vibrant tech chapters.
+            </p>
+
+            <div class="edu-coursework-title">Key Academic Focus & Foundational Coursework</div>
+            <div class="edu-tags">
+              <span class="badge badge-tag">Problem Solving using Python</span>
+              <span class="badge badge-tag">Basics of Computing & Logic</span>
+              <span class="badge badge-tag">Engineering Mathematics</span>
+              <span class="badge badge-tag">Object-Oriented Concepts</span>
+              <span class="badge badge-tag">Electrical & Electronics Foundations</span>
+              <span class="badge badge-tag">Algorithmic Thinking</span>
+            </div>
+          </div>
+
+          <!-- School / Foundation Card -->
+          <div class="edu-card reveal-on-scroll delay-1">
+            <div class="edu-card-header">
+              <div>
+                <h3 class="edu-degree">Higher Secondary / Pre-University Foundation</h3>
+                <div class="edu-college">Science & Computer Science Stream</div>
+              </div>
+              <span class="edu-period">Completed 2026</span>
+            </div>
+            
+            <p class="edu-description">
+              Built a firm foundation in Physics, Chemistry, Mathematics, and Computer Science. Fostered strong analytical and problem-solving skills, which inspired me to pursue Computer Science and Engineering as my life's vocation.
+            </p>
+
+            <div class="edu-coursework-title">Core Competencies Developed</div>
+            <div class="edu-tags">
+              <span class="badge badge-tag">Mathematics & Calculus</span>
+              <span class="badge badge-tag">Analytical Problem Solving</span>
+              <span class="badge badge-tag">Computer Science Fundamentals</span>
+              <span class="badge badge-tag">Physics & Logical Deduction</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         5. Skills Section
+         ========================================================================== -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="eyebrow">Skills & Toolkit</span>
+          <h2 class="section-title">Technical <em>Craftsmanship</em></h2>
+          <p class="section-subtitle">
+            Technologies, programming languages, and development environments I use and continue to explore daily.
+          </p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs reveal-on-scroll">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="lang">Languages</button>
+          <button class="filter-btn" data-filter="web">Web & Frontend</button>
+          <button class="filter-btn" data-filter="tools">Tools & Workflow</button>
+          <button class="filter-btn" data-filter="soft">Core & Soft Skills</button>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Python -->
+          <div class="skill-card" data-category="lang">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <span class="skill-level-tag">Active Focus</span>
+            </div>
+            <h3 class="skill-name">Python</h3>
+            <p class="skill-desc">
+              Primary language for academic coursework, algorithmic problem solving, scripting, and data manipulation.
+            </p>
+          </div>
+
+          <!-- C / C++ -->
+          <div class="skill-card" data-category="lang">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                  <line x1="9" y1="1" x2="9" y2="4"></line>
+                  <line x1="15" y1="1" x2="15" y2="4"></line>
+                </svg>
+              </div>
+              <span class="skill-level-tag">Academic Foundation</span>
+            </div>
+            <h3 class="skill-name">C / C++</h3>
+            <p class="skill-desc">
+              Deepening understanding of memory management, pointers, compilation cycles, and low-level system paradigms.
+            </p>
+          </div>
+
+          <!-- HTML5 -->
+          <div class="skill-card" data-category="web">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                </svg>
+              </div>
+              <span class="skill-level-tag">Core Skill</span>
+            </div>
+            <h3 class="skill-name">Semantic HTML5</h3>
+            <p class="skill-desc">
+              Writing accessible, SEO-friendly, and well-structured semantic document architectures with standards compliance.
+            </p>
+          </div>
+
+          <!-- CSS3 -->
+          <div class="skill-card" data-category="web">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                  <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                  <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                </svg>
+              </div>
+              <span class="skill-level-tag">Proficient</span>
+            </div>
+            <h3 class="skill-name">Modern CSS3</h3>
+            <p class="skill-desc">
+              Fluid responsive layouts using CSS Flexbox, Grid, custom properties (CSS variables), keyframes, and subtle transitions.
+            </p>
+          </div>
+
+          <!-- Modern JavaScript -->
+          <div class="skill-card" data-category="web">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                </svg>
+              </div>
+              <span class="skill-level-tag">Actively Learning</span>
+            </div>
+            <h3 class="skill-name">Modern JavaScript (ES6+)</h3>
+            <p class="skill-desc">
+              DOM manipulation, asynchronous operations, event handling, modular programming, and interactive UI logic.
+            </p>
+          </div>
+
+          <!-- Git & GitHub -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="18" cy="18" r="3"></circle>
+                  <circle cx="6" cy="6" r="3"></circle>
+                  <path d="M13 6h3a2 2 0 0 1 2 2v7"></path>
+                  <line x1="6" y1="9" x2="6" y2="21"></line>
+                </svg>
+              </div>
+              <span class="skill-level-tag">Essential Tool</span>
+            </div>
+            <h3 class="skill-name">Git & GitHub</h3>
+            <p class="skill-desc">
+              Source code version control, branching strategies, commit hygiene, and open-source project management.
+            </p>
+          </div>
+
+          <!-- VS Code & Dev Environment -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+              </div>
+              <span class="skill-level-tag">Daily Driver</span>
+            </div>
+            <h3 class="skill-name">VS Code & CLI</h3>
+            <p class="skill-desc">
+              Productive editor configuration, terminal automation, debugging extensions, and efficient keyboard shortcuts.
+            </p>
+          </div>
+
+          <!-- Figma & UI/UX -->
+          <div class="skill-card" data-category="tools">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"></path>
+                  <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path>
+                  <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path>
+                  <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"></path>
+                  <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"></path>
+                </svg>
+              </div>
+              <span class="skill-level-tag">Creative Design</span>
+            </div>
+            <h3 class="skill-name">Figma & UI Wireframing</h3>
+            <p class="skill-desc">
+              Visualizing user interfaces, color harmonies, typography hierarchies, and rapid responsive wireframing.
+            </p>
+          </div>
+
+          <!-- Problem Solving & Soft Skills -->
+          <div class="skill-card" data-category="soft">
+            <div class="skill-card-top">
+              <div class="skill-icon-wrap">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+              </div>
+              <span class="skill-level-tag">Interpersonal</span>
+            </div>
+            <h3 class="skill-name">Collaboration & Teamwork</h3>
+            <p class="skill-desc">
+              Strong belief in empathy, team communication, active listening, and constructive peer code review.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. Campus Experience & Involvement Section
+         ========================================================================== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="eyebrow">Campus Leadership & Engagement</span>
+          <h2 class="section-title">Experience & <em>Community</em></h2>
+          <p class="section-subtitle">
+            Active involvement in collegiate student organizations, technical circles, and community initiatives at AJCE.
+          </p>
+        </div>
+
+        <div class="experience-grid">
+          <!-- Card 1 -->
+          <div class="exp-card reveal-on-scroll">
+            <h3 class="exp-role">Student Member & Tech Enthusiast</h3>
+            <div class="exp-org">Department of Computer Science & Engineering, AJCE</div>
+            <div class="exp-time">2026 – Present • Kanjirappally, Kerala</div>
+            <p class="exp-desc">
+              Actively participating in departmental seminars, coding workshops, and peer-learning groups. Engaging with senior scholars and faculty to expand knowledge beyond the prescribed syllabus.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="exp-card reveal-on-scroll delay-1">
+            <h3 class="exp-role">Collegiate Technical Clubs & Societies</h3>
+            <div class="exp-org">IEEE Student Branch & ACM Chapter AJCE</div>
+            <div class="exp-time">2026 – Present • Campus Community</div>
+            <p class="exp-desc">
+              Involved in student branch activities, tech talks, webinars on emerging computing trends, and collaborative hackathons aimed at solving real-world challenges.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="exp-card reveal-on-scroll delay-2">
+            <h3 class="exp-role">Hackathons & Coding Competitions</h3>
+            <div class="exp-org">Collegiate & Inter-College Events</div>
+            <div class="exp-time">2026 – Present • Competitive Learning</div>
+            <p class="exp-desc">
+              Participating in 24-hour hackathons and algorithmic sprints. Learning rapid prototyping, team role distribution, effective presentation, and pressure-resilient problem solving.
+            </p>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="exp-card reveal-on-scroll delay-3">
+            <h3 class="exp-role">Innovation & Entrepreneurship Cell</h3>
+            <div class="exp-org">IEDC AJCE (Innovation & Entrepreneurship)</div>
+            <div class="exp-time">2026 – Present • Creative Projects</div>
+            <p class="exp-desc">
+              Exploring creative product ideas, human-centric design thinking, and collaborative startup culture fostered by the vibrant innovation ecosystem of Amal Jyothi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. Featured Projects Section
+         ========================================================================== -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="eyebrow">Showcase of Work</span>
+          <h2 class="section-title">Featured <em>Projects</em></h2>
+          <p class="section-subtitle">
+            A curated collection of web applications, computational tools, and learning projects crafted with care.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Personal Portfolio -->
+          <article class="project-card reveal-on-scroll">
+            <div class="project-thumb">
+              <div class="project-thumb-preview" style="padding: 1.5rem; justify-content: center; align-items: center; background: linear-gradient(135deg, #FAF7F2, #F0E9DF);">
+                <div style="font-family: var(--font-serif); font-size: 1.5rem; font-weight: bold; color: var(--text-primary); text-align: center;">
+                  ARPITHA<span style="color: var(--accent);">.</span>
+                  <div style="font-family: var(--font-sans); font-size: 0.8rem; font-weight: 500; color: var(--text-secondary); margin-top: 0.25rem;">
+                    Editorial Portfolio Website
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category">Web & UI/UX Design</span>
+              <h3 class="project-title">Modern Editorial Portfolio Website</h3>
+              <p class="project-description">
+                A warm, responsive personal portfolio built with semantic HTML5, CSS3 custom properties, and modern JavaScript with smooth scroll and an editorial aesthetic.
+              </p>
+              <div class="project-tags">
+                <span class="badge badge-tag">HTML5</span>
+                <span class="badge badge-tag">CSS3 Variables</span>
+                <span class="badge badge-tag">JavaScript</span>
+                <span class="badge badge-tag">Responsive</span>
+              </div>
+              <div class="project-actions">
+                <button type="button" class="link-editorial btn-preview-project" data-project="editorial-portfolio">
+                  View Case Study
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+                <a href="https://github.com/arpithamaryshyju/personal-portfolio" target="_blank" rel="noopener noreferrer" class="btn-icon-only" title="View Source on GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: AJCE Engineering Resource Compass -->
+          <article class="project-card reveal-on-scroll delay-1">
+            <div class="project-thumb">
+              <div class="project-thumb-preview" style="padding: 1.5rem; justify-content: center; align-items: center; background: linear-gradient(135deg, #F0E9DF, #EADBC8);">
+                <div style="text-align: center;">
+                  <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin: 0 auto 0.5rem;">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                  </svg>
+                  <div style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: bold; color: var(--text-primary);">
+                    AJCE Compass
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category">Student Academic Hub</span>
+              <h3 class="project-title">AJCE Resource Compass</h3>
+              <p class="project-description">
+                A streamlined web portal designed for engineering students at AJCE to access syllabus roadmaps, subject notes, and practical lab manuals with ease.
+              </p>
+              <div class="project-tags">
+                <span class="badge badge-tag">JavaScript</span>
+                <span class="badge badge-tag">Local Storage</span>
+                <span class="badge badge-tag">CSS Grid</span>
+                <span class="badge badge-tag">UX</span>
+              </div>
+              <div class="project-actions">
+                <button type="button" class="link-editorial btn-preview-project" data-project="academic-compass">
+                  View Case Study
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+                <a href="https://github.com/arpithamaryshyju/ajce-resource-compass" target="_blank" rel="noopener noreferrer" class="btn-icon-only" title="View Source on GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Python SGPA / CGPA Suite -->
+          <article class="project-card reveal-on-scroll delay-2">
+            <div class="project-thumb">
+              <div class="project-thumb-preview" style="padding: 1.5rem; justify-content: center; align-items: center; background: linear-gradient(135deg, #FAF7F2, #EDE4DA);">
+                <div style="text-align: center;">
+                  <span style="font-family: var(--font-mono); font-size: 1.75rem; font-weight: bold; color: var(--accent); display: block; margin-bottom: 0.35rem;">
+                    &gt;_ py.calc
+                  </span>
+                  <div style="font-family: var(--font-sans); font-size: 0.8rem; color: var(--text-secondary);">
+                    Credit-Weighted GPA Algorithm
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category">Python & Utilities</span>
+              <h3 class="project-title">Python Academic Tracker & SGPA Suite</h3>
+              <p class="project-description">
+                An automated Python computation script and CLI utility tailored for engineering grade calculations with course credit weighting and goal forecasting.
+              </p>
+              <div class="project-tags">
+                <span class="badge badge-tag">Python 3</span>
+                <span class="badge badge-tag">Algorithms</span>
+                <span class="badge badge-tag">CLI</span>
+                <span class="badge badge-tag">File I/O</span>
+              </div>
+              <div class="project-actions">
+                <button type="button" class="link-editorial btn-preview-project" data-project="python-tracker">
+                  View Case Study
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+                <a href="https://github.com/arpithamaryshyju/python-academic-tracker" target="_blank" rel="noopener noreferrer" class="btn-icon-only" title="View Source on GitHub">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         8. Contact Section
+         ========================================================================== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="eyebrow">Get In Touch</span>
+          <h2 class="section-title">Let's Start a <em>Conversation</em></h2>
+          <p class="section-subtitle">
+            Whether you want to discuss a student project, explore tech ideas, or simply connect, my inbox is always open.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Details & Quick Copy -->
+          <div class="contact-info reveal-on-scroll">
+            <!-- Email Item Card -->
+            <div class="contact-item-card">
+              <div class="contact-item-left">
+                <div class="contact-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">Direct Student Email</div>
+                  <a href="mailto:arpithamaryshyju2030@cs.ajce.in" class="contact-item-val">
+                    arpithamaryshyju2030@cs.ajce.in
+                  </a>
+                </div>
+              </div>
+              <button type="button" class="btn btn-secondary btn-sm btn-copy-email">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                Copy
+              </button>
+            </div>
+
+            <!-- College & Location Item Card -->
+            <div class="contact-item-card">
+              <div class="contact-item-left">
+                <div class="contact-icon-box">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <div class="contact-item-label">Campus & Location</div>
+                  <div class="contact-item-val">
+                    Amal Jyothi College of Engineering, Kanjirappally, Kerala, India
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links Strip -->
+            <div>
+              <div class="contact-item-label" style="margin-bottom: 0.65rem;">Connect on Social & Developer Platforms</div>
+              <div class="contact-socials">
+                <a href="https://github.com/arpithamaryshyju" target="_blank" rel="noopener noreferrer" class="btn-icon-only" title="GitHub Profile">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                  </svg>
+                </a>
+                <a href="https://linkedin.com/in/arpithamaryshyju" target="_blank" rel="noopener noreferrer" class="btn-icon-only" title="LinkedIn Profile">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+                <a href="mailto:arpithamaryshyju2030@cs.ajce.in" class="btn-icon-only" title="Direct Email">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Validated Contact Form -->
+          <div class="contact-form-card reveal-on-scroll delay-1">
+            <h3 style="font-size: 1.45rem; margin-bottom: 0.5rem; color: var(--text-primary);">Send a Direct Note</h3>
+            <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: var(--space-xl);">
+              Have a suggestion, opportunity, or question? Fill in the details below.
+            </p>
+
+            <form id="contactForm" novalidate>
+              <div class="form-group">
+                <label class="form-label" for="contactName">Your Name</label>
+                <input type="text" id="contactName" class="form-input" placeholder="e.g. Maya Nair" required>
+                <span class="form-error-msg">Please enter your name (at least 2 characters).</span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactEmail">Your Email Address</label>
+                <input type="email" id="contactEmail" class="form-input" placeholder="e.g. name@example.com" required>
+                <span class="form-error-msg">Please provide a valid email address.</span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactSubject">Subject</label>
+                <input type="text" id="contactSubject" class="form-input" placeholder="e.g. Student Project Collaboration" required>
+                <span class="form-error-msg">Please enter a subject (at least 3 characters).</span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contactMessage">Message</label>
+                <textarea id="contactMessage" class="form-textarea" placeholder="Write your message here..." required></textarea>
+                <span class="form-error-msg">Please enter your message (at least 10 characters).</span>
+              </div>
+
+              <button type="submit" id="contactSubmitBtn" class="btn btn-primary" style="width: 100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       9. Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">ARPITHA<span class="dot">.</span></div>
+          <p class="footer-desc">
+            First-Year Computer Science and Engineering Student at Amal Jyothi College of Engineering, Kanjirappally, Kerala, India. Dedicated to continuous learning, creativity, and teamwork.
+          </p>
+        </div>
+
+        <div>
+          <a href="#hero" class="back-to-top-btn" id="backToTop">
+            Back to Top
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="12" y1="19" x2="12" y2="5"></line>
+              <polyline points="5 12 12 5 19 12"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Arpitha Mary Shyju. Handcrafted with warm editorial care.
+        </div>
+        <div>
+          Amal Jyothi College of Engineering • Class of 2030
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       10. Interactive Project Details Modal
+       ========================================================================== -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-label="Project Details">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="closeModalBtn" aria-label="Close Project Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+      <div id="modalContentBody">
+        <!-- Injected dynamically via js/projects.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       11. Interactive Resume / CV Viewer Modal
+       ========================================================================== -->
+  <div class="modal-overlay" id="resumeModal" role="dialog" aria-modal="true" aria-label="Curriculum Vitae">
+    <div class="modal-card" style="max-width: 840px;">
+      <button type="button" class="modal-close-btn" id="closeResumeBtn" aria-label="Close Resume Modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <!-- Resume Content Header -->
+      <div style="border-bottom: 2px solid var(--border-medium); padding-bottom: 1.5rem; margin-bottom: 1.5rem;">
+        <span class="badge" style="margin-bottom: 0.5rem;">Curriculum Vitae</span>
+        <h2 style="font-size: 2.2rem; color: var(--text-primary); margin-bottom: 0.25rem;">Arpitha Mary Shyju</h2>
+        <div style="font-size: 1.1rem; color: var(--accent); font-weight: 600; margin-bottom: 0.75rem;">
+          First-Year Computer Science and Engineering Student
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; font-size: 0.9rem; color: var(--text-secondary);">
+          <span>📍 Kanjirappally, Kerala, India</span>
+          <span>✉️ arpithamaryshyju2030@cs.ajce.in</span>
+          <span>🎓 Amal Jyothi College of Engineering</span>
+        </div>
+      </div>
+
+      <!-- Professional Summary -->
+      <div style="margin-bottom: 1.5rem;">
+        <h4 style="text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.9rem; color: var(--accent); margin-bottom: 0.4rem;">
+          Statement of Purpose & Profile
+        </h4>
+        <p style="font-size: 0.95rem; line-height: 1.7; color: var(--text-secondary);">
+          "I'm a passionate first-year Computer Science and Engineering student who is curious to learn, enthusiastic about technology and eager to explore new ideas. I enjoy learning programming, discovering emerging technologies and developing my skills. I believe in continuous learning, creativity and teamwork."
+        </p>
+      </div>
+
+      <!-- Education Section -->
+      <div style="margin-bottom: 1.5rem;">
+        <h4 style="text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.9rem; color: var(--accent); margin-bottom: 0.65rem;">
+          Education
+        </h4>
+        <div style="background-color: var(--bg-primary); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle); margin-bottom: 0.75rem;">
+          <div style="display: flex; justify-content: space-between; font-weight: 600; color: var(--text-primary); margin-bottom: 0.2rem;">
+            <span>B.Tech in Computer Science and Engineering</span>
+            <span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-tertiary);">2026 – 2030</span>
+          </div>
+          <div style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.4rem;">
+            Amal Jyothi College of Engineering, Kanjirappally, Kerala, India
+          </div>
+          <div style="font-size: 0.825rem; color: var(--text-tertiary);">
+            Focus: Python Programming, Computational Logic, Engineering Mathematics, Object-Oriented Principles.
+          </div>
+        </div>
+
+        <div style="background-color: var(--bg-primary); padding: 1rem 1.25rem; border-radius: var(--radius-md); border: 1px solid var(--border-subtle);">
+          <div style="display: flex; justify-content: space-between; font-weight: 600; color: var(--text-primary); margin-bottom: 0.2rem;">
+            <span>Higher Secondary Education (Class XII)</span>
+            <span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-tertiary);">Completed 2026</span>
+          </div>
+          <div style="font-size: 0.9rem; color: var(--text-secondary);">
+            Physics, Chemistry, Mathematics & Computer Science
+          </div>
+        </div>
+      </div>
+
+      <!-- Technical Skills Breakdown -->
+      <div style="margin-bottom: 1.5rem;">
+        <h4 style="text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.9rem; color: var(--accent); margin-bottom: 0.65rem;">
+          Technical Skills & Tools
+        </h4>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.75rem;">
+          <div style="background: var(--bg-secondary); padding: 0.75rem; border-radius: var(--radius-sm);">
+            <strong style="display: block; font-size: 0.825rem; color: var(--text-primary);">Programming</strong>
+            <span style="font-size: 0.85rem; color: var(--text-secondary);">Python, C, C++, JavaScript</span>
+          </div>
+          <div style="background: var(--bg-secondary); padding: 0.75rem; border-radius: var(--radius-sm);">
+            <strong style="display: block; font-size: 0.825rem; color: var(--text-primary);">Web Technologies</strong>
+            <span style="font-size: 0.85rem; color: var(--text-secondary);">HTML5, CSS3, DOM, Responsive UI</span>
+          </div>
+          <div style="background: var(--bg-secondary); padding: 0.75rem; border-radius: var(--radius-sm);">
+            <strong style="display: block; font-size: 0.825rem; color: var(--text-primary);">Developer Tools</strong>
+            <span style="font-size: 0.85rem; color: var(--text-secondary);">Git, GitHub, VS Code, Figma</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Actions -->
+      <div style="display: flex; gap: 0.75rem; justify-content: flex-end; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+        <button type="button" class="btn btn-secondary btn-sm" id="printResumeBtn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 6 2 18 2 18 9"></polyline>
+            <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+            <rect x="6" y="14" width="12" height="8"></rect>
+          </svg>
+          Print / Save PDF
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" onclick="document.getElementById('resumeModal').classList.remove('active'); document.body.style.overflow = '';">
+          Done
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>

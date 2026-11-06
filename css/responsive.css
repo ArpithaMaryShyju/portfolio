@@ -1,0 +1,199 @@
+/* ==========================================================================
+   Responsive Adaptations & Media Queries - Arpitha Mary Shyju Portfolio
+   ========================================================================== */
+
+/* Tablet & Smaller Laptops (<= 1024px) */
+@media screen and (max-width: 1024px) {
+  :root {
+    --space-4xl: 4.5rem;
+    --space-3xl: 3.5rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+    text-align: left;
+  }
+
+  .hero-visual {
+    order: -1;
+    margin: 0 auto;
+  }
+
+  .hero-card-container {
+    max-width: 380px;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-2xl);
+  }
+}
+
+/* Tablet Portrait & Mobile (<= 768px) */
+@media screen and (max-width: 768px) {
+  :root {
+    --nav-height: 70px;
+    --space-4xl: 3.75rem;
+    --space-3xl: 2.75rem;
+  }
+
+  .container {
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+  }
+
+  /* Navigation */
+  .nav-links,
+  .nav-cta-btn {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* Hero */
+  .hero-section {
+    padding-top: var(--space-2xl);
+    padding-bottom: var(--space-3xl);
+  }
+
+  .hero-title {
+    font-size: 2.35rem;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .hero-highlights-strip {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  .floating-pill--bottom {
+    left: -5px;
+    bottom: -15px;
+  }
+
+  .floating-pill--top {
+    right: -5px;
+    top: -15px;
+  }
+
+  /* Grids */
+  .skills-grid,
+  .projects-grid,
+  .experience-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-details-table {
+    grid-template-columns: 1fr;
+  }
+
+  .filter-tabs {
+    width: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding: 0.25rem;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .filter-btn {
+    white-space: nowrap;
+  }
+
+  .edu-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: var(--space-md);
+  }
+
+  .contact-item-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-item-card .btn-sm {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .toast {
+    max-width: calc(100vw - 2rem);
+  }
+}
+
+/* Small Mobile (<= 480px) */
+@media screen and (max-width: 480px) {
+  .hero-art-card {
+    padding: var(--space-lg) var(--space-md);
+  }
+
+  .hero-avatar-frame {
+    width: 120px;
+    height: 120px;
+  }
+
+  .monogram-avatar {
+    font-size: 2.25rem;
+  }
+
+  .floating-pill {
+    font-size: 0.75rem;
+    padding: 0.45rem 0.85rem;
+  }
+
+  .modal-card {
+    padding: var(--space-lg) var(--space-md);
+  }
+}
+
+/* Print Styles */
+@media print {
+  .site-header,
+  .menu-toggle,
+  .mobile-nav,
+  .mobile-nav-backdrop,
+  .filter-tabs,
+  .contact-form-card,
+  .site-footer,
+  .toast-container,
+  .hero-actions {
+    display: none !important;
+  }
+
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+  }
+
+  .card, .edu-card, .skill-card, .exp-card, .project-card {
+    box-shadow: none !important;
+    border: 1px solid #CCCCCC !important;
+    break-inside: avoid;
+  }
+}
+
